@@ -1,10 +1,12 @@
 import styles from "./ChatBody.module.css";
 
 export const ChatBody = () => {
-    const arr =[1,2,3,4,5,6,7,8,9,10,11]
+  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
   return (
     <div className={styles.mainContainer}>
-      <div className={styles.chatMain}>
+
+    {arr.map((item) => {
+        return<div className={styles.chatMain}>
         <div className={styles.topImage}>
           <img
             className={styles.topImage}
@@ -28,7 +30,9 @@ export const ChatBody = () => {
             }}
           >
             <div className={styles.topName}>Diana</div>
-            <div className={styles.chatRegular}>Hey I've done design in a lot's of world</div>
+            <div className={styles.chatRegular}>
+              Hey I've done design in a lot's of world
+            </div>
           </div>
           <div
             style={{
@@ -37,14 +41,13 @@ export const ChatBody = () => {
               justifyContent: "space-evenly",
             }}
           >
-            <div className={styles.time}>
-              11:35pm
-            </div>
+            <div className={styles.time}>11:35pm</div>
             <div className={styles.notification}>5</div>
           </div>
           {/* 2nd part */}
         </div>
       </div>
+    })}
     </div>
   );
 };
