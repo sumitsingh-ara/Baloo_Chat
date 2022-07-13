@@ -3,10 +3,18 @@
     background-color:black;
     padding: 24px;
     display: flex;
+    align-items: center;
 }
 .topImage{
     height: 48px;
     width: 48px;
     border-radius:50%;
     object-fit: cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.topName{
+    color: #FFFFFF;
+    margin-left: 34px;
+    font-size:18px;
+    font-family: 'Poppins', sans-serif;
 }
