@@ -1,0 +1,12 @@
+.mainDiv{
+    height: 42px;
+    background-color:black;
+    padding: 24px;
+    display: flex;
+}
+.topImage{
+    height: 48px;
+    width: 48px;
+    border-radius:50%;
+    object-fit: cover;
+}
