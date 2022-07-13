@@ -1,12 +1,11 @@
 import styles from "./ChatBody.module.css";
 
 export const ChatBody = () => {
-  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
   return (
     <div className={styles.mainContainer}>
 
-    {arr.map((item) => {
-        return<div className={styles.chatMain}>
+    {[...new Array(20)].map((item,index) => {
+        return<div key={index} className={styles.chatMain}>
         <div className={styles.topImage}>
           <img
             className={styles.topImage}
