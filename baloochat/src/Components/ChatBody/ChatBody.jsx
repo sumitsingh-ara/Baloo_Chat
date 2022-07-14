@@ -21,7 +21,9 @@ export const ChatBody = () => {
             gridTemplateColumns: "78% 22%",
           }}
         >
-          <div
+          <div onClick={()=>{
+            alert("Clicking on this will open a new component with the chatid to start the live chatting with the selected user");
+          }}
             style={{
               display: "flex",
               flexDirection: "column",

@@ -17,7 +17,9 @@ export const BottomNavbar = () => {
             console.log("This is search button,can use to search chats")
         }} src={Search} tabIndex={3} alt="" />
       </div>
-      <div className={styles.User_add}>
+      <div onClick={()=>{
+        alert("It can open a new window or link to add new chats")
+      }} className={styles.User_add}>
         <div className={styles.alignUser}>
         <img src={User_add} alt="" />
         </div>
