@@ -7,3 +7,35 @@
     right: 0;
     border-radius:24px;
 }
+.bottomIcons{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    height: 100%;
+}
+.bottomIcons >img{
+    width: 28px;
+}
+.User_add{
+    position:fixed;
+    bottom:100px;
+    background-color:rgb(28, 56, 237);
+    left:80vw;
+    right:0;
+    width: 70px;
+    height:70px;
+    border-radius:50%;
+}
+.alignUser{
+    height:100%;
+    align-items:center;
+    display: flex;
+  justify-content: center;
+}
+/* Focus underline */
+
+.bottomIcons > img:focus {
+    padding-bottom:5px;
+    border-bottom: 2px solid #E7E049 !important;
+  }
