@@ -41,7 +41,7 @@ export const ChatBody = () => {
             }}
           >
             <div className={styles.time}>11:35pm</div>
-            <div className={styles.notification}>5</div>
+            <div className={styles.notification}>2</div>
           </div>
           {/* 2nd part */}
         </div>

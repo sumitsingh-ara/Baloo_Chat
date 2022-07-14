@@ -2,6 +2,7 @@
     background-color:#FFFFFF;
     border-top-right-radius: 24px;
     border-top-left-radius: 24px;
+    margin-bottom:75+24px;
 }
 .chatMain{
     padding: 24px 24px 0px 24px;
@@ -43,7 +44,8 @@
 .time{
     color: #000000;
     font-size:10px;
-    font-family: 'Poppinsandregular', sans-serif;
+    font-family: 'Poppinsandlight', sans-serif;
+    color:gray;
 }
 .notification{
     background-color: #000000;

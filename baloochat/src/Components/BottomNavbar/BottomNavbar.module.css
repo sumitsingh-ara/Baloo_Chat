@@ -1,0 +1,9 @@
+.bottomContainer{
+    height: 75px;
+    position: fixed;
+    background-color:#1E1E1E;
+    bottom:0;
+    left: 0;
+    right: 0;
+    border-radius:24px;
+}
